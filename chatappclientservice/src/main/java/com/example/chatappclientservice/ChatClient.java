@@ -22,7 +22,7 @@ public class ChatClient {
     public void startClient() {
         try {
 
-            String serverIp = "127.0.0.1";
+            String serverIp = "192.168.8.33";
             String serverPort = "12345";
 
             InetAddress ip = InetAddress.getByName(serverIp);
